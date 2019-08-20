@@ -9,8 +9,8 @@ func appReducer(state: inout AppState, action: AppAction) {
     case .logOut:
         state.user = nil
     case .showAlert(let message):
-        state.alertMessage = message
+        state.alert = message
     case .dismissAlert:
-        state.alertMessage = nil
+        state.alert = nil
     }
 }

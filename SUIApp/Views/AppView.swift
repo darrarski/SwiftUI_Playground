@@ -24,7 +24,7 @@ struct AppView: View {
         }, set: { show in
             if !show { self.store.send(.dismissAlert) }
         })) {
-            Alert(title: Text(store.value.alertMessage ?? ""))
+            Alert(title: Text(store.value.alert ?? ""))
         }
     }
     

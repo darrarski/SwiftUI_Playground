@@ -1,3 +1,3 @@
 extension AppState {
-    var showsAlert: Bool { alertMessage != nil }
+    var showsAlert: Bool { alert != nil }
 }
