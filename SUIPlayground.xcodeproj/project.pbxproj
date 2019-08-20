@@ -40,8 +40,8 @@
 		310894A6230C5381003DC55F = {
 			isa = PBXGroup;
 			children = (
-				310894B1230C5381003DC55F /* SUIApp */,
 				310894B0230C5381003DC55F /* Products */,
+				310894B1230C5381003DC55F /* SUIApp */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,12 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				310894B2230C5381003DC55F /* AppDelegate.swift */,
-				310894B4230C5381003DC55F /* SceneDelegate.swift */,
-				310894B6230C5381003DC55F /* ContentView.swift */,
 				310894B8230C5382003DC55F /* Assets.xcassets */,
-				310894BD230C5382003DC55F /* LaunchScreen.storyboard */,
+				310894B6230C5381003DC55F /* ContentView.swift */,
 				310894C0230C5382003DC55F /* Info.plist */,
+				310894BD230C5382003DC55F /* LaunchScreen.storyboard */,
 				310894BA230C5382003DC55F /* Preview Content */,
+				310894B4230C5381003DC55F /* SceneDelegate.swift */,
 			);
 			path = SUIApp;
 			sourceTree = "<group>";
@@ -110,7 +110,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 310894AA230C5381003DC55F /* Build configuration list for PBXProject "SUIApp" */;
+			buildConfigurationList = 310894AA230C5381003DC55F /* Build configuration list for PBXProject "SUIPlayground" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -323,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		310894AA230C5381003DC55F /* Build configuration list for PBXProject "SUIApp" */ = {
+		310894AA230C5381003DC55F /* Build configuration list for PBXProject "SUIPlayground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				310894C1230C5382003DC55F /* Debug */,
