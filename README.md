@@ -9,11 +9,11 @@ SwiftUI playground project
 
 Requirements:
 
-- Xcode 11 beta 6
+- [Xcode](https://developer.apple.com/xcode/) 11 beta 6
 
-## Develop
+## Play
 
-Use `SUIPlayground.xcodeproj` for development.
+Open `SUIPlayground.xcodeproj` in Xcode.
 
 ## License
 
