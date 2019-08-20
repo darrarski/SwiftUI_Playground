@@ -9,21 +9,45 @@
 /* Begin PBXBuildFile section */
 		310894B3230C5381003DC55F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310894B2230C5381003DC55F /* AppDelegate.swift */; };
 		310894B5230C5381003DC55F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310894B4230C5381003DC55F /* SceneDelegate.swift */; };
-		310894B7230C5381003DC55F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310894B6230C5381003DC55F /* ContentView.swift */; };
+		310894B7230C5381003DC55F /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310894B6230C5381003DC55F /* AppView.swift */; };
 		310894B9230C5382003DC55F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 310894B8230C5382003DC55F /* Assets.xcassets */; };
 		310894BC230C5382003DC55F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 310894BB230C5382003DC55F /* Preview Assets.xcassets */; };
 		310894BF230C5382003DC55F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 310894BD230C5382003DC55F /* LaunchScreen.storyboard */; };
+		31E7074C230C699000F7BA28 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E7074B230C699000F7BA28 /* AppState.swift */; };
+		31E7074F230C69ED00F7BA28 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E7074E230C69ED00F7BA28 /* Store.swift */; };
+		31E70751230C6A5E00F7BA28 /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E70750230C6A5E00F7BA28 /* AppAction.swift */; };
+		31E70753230C6AA000F7BA28 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E70752230C6AA000F7BA28 /* AppReducer.swift */; };
+		31E70756230C6BC500F7BA28 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E70755230C6BC500F7BA28 /* ActivityIndicator.swift */; };
+		31E7075B230C6D4500F7BA28 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E7075A230C6D4500F7BA28 /* LogInView.swift */; };
+		31E7075E230C6DCC00F7BA28 /* LogInService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E7075D230C6DCC00F7BA28 /* LogInService.swift */; };
+		31E70760230C702B00F7BA28 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E7075F230C702B00F7BA28 /* HomeView.swift */; };
+		31E70762230C707000F7BA28 /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E70761230C707000F7BA28 /* AppUser.swift */; };
+		31E70764230C747400F7BA28 /* AppState+IsLoggedIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E70763230C747400F7BA28 /* AppState+IsLoggedIn.swift */; };
+		31E70767230C75BC00F7BA28 /* UIWindow+ResignFirstResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E70766230C75BC00F7BA28 /* UIWindow+ResignFirstResponder.swift */; };
+		31E70769230C7AB400F7BA28 /* AppState+ShowsAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E70768230C7AB400F7BA28 /* AppState+ShowsAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		310894AF230C5381003DC55F /* SUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		310894B2230C5381003DC55F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		310894B4230C5381003DC55F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		310894B6230C5381003DC55F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		310894B6230C5381003DC55F /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		310894B8230C5382003DC55F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		310894BB230C5382003DC55F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		310894BE230C5382003DC55F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		310894C0230C5382003DC55F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31E7074B230C699000F7BA28 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		31E7074E230C69ED00F7BA28 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		31E70750230C6A5E00F7BA28 /* AppAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAction.swift; sourceTree = "<group>"; };
+		31E70752230C6AA000F7BA28 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		31E70755230C6BC500F7BA28 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		31E7075A230C6D4500F7BA28 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		31E7075D230C6DCC00F7BA28 /* LogInService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInService.swift; sourceTree = "<group>"; };
+		31E7075F230C702B00F7BA28 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		31E70761230C707000F7BA28 /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		31E70763230C747400F7BA28 /* AppState+IsLoggedIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppState+IsLoggedIn.swift"; sourceTree = "<group>"; };
+		31E70766230C75BC00F7BA28 /* UIWindow+ResignFirstResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+ResignFirstResponder.swift"; sourceTree = "<group>"; };
+		31E70768230C7AB400F7BA28 /* AppState+ShowsAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppState+ShowsAlert.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,23 +80,83 @@
 		310894B1230C5381003DC55F /* SUIApp */ = {
 			isa = PBXGroup;
 			children = (
-				310894B2230C5381003DC55F /* AppDelegate.swift */,
-				310894B8230C5382003DC55F /* Assets.xcassets */,
-				310894B6230C5381003DC55F /* ContentView.swift */,
-				310894C0230C5382003DC55F /* Info.plist */,
-				310894BD230C5382003DC55F /* LaunchScreen.storyboard */,
-				310894BA230C5382003DC55F /* Preview Content */,
-				310894B4230C5381003DC55F /* SceneDelegate.swift */,
+				31E70757230C6BD600F7BA28 /* Application */,
+				31E70765230C75A500F7BA28 /* Helpers */,
+				31E70758230C6C1600F7BA28 /* Resources */,
+				31E7075C230C6DBC00F7BA28 /* Services */,
+				31E7074D230C69DD00F7BA28 /* State */,
+				31E70754230C6BB900F7BA28 /* Views */,
 			);
 			path = SUIApp;
 			sourceTree = "<group>";
 		};
-		310894BA230C5382003DC55F /* Preview Content */ = {
+		31E7074D230C69DD00F7BA28 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				31E70750230C6A5E00F7BA28 /* AppAction.swift */,
+				31E70752230C6AA000F7BA28 /* AppReducer.swift */,
+				31E7074B230C699000F7BA28 /* AppState.swift */,
+				31E70763230C747400F7BA28 /* AppState+IsLoggedIn.swift */,
+				31E70768230C7AB400F7BA28 /* AppState+ShowsAlert.swift */,
+				31E70761230C707000F7BA28 /* AppUser.swift */,
+				31E7074E230C69ED00F7BA28 /* Store.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		31E70754230C6BB900F7BA28 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				31E70755230C6BC500F7BA28 /* ActivityIndicator.swift */,
+				310894B6230C5381003DC55F /* AppView.swift */,
+				31E7075F230C702B00F7BA28 /* HomeView.swift */,
+				31E7075A230C6D4500F7BA28 /* LogInView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		31E70757230C6BD600F7BA28 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				310894B2230C5381003DC55F /* AppDelegate.swift */,
+				310894B4230C5381003DC55F /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		31E70758230C6C1600F7BA28 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				310894B8230C5382003DC55F /* Assets.xcassets */,
+				310894C0230C5382003DC55F /* Info.plist */,
+				310894BD230C5382003DC55F /* LaunchScreen.storyboard */,
+				31E70759230C6CC900F7BA28 /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		31E70759230C6CC900F7BA28 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
 				310894BB230C5382003DC55F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		31E7075C230C6DBC00F7BA28 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				31E7075D230C6DCC00F7BA28 /* LogInService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		31E70765230C75A500F7BA28 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				31E70766230C75BC00F7BA28 /* UIWindow+ResignFirstResponder.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +230,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E7074F230C69ED00F7BA28 /* Store.swift in Sources */,
+				31E7075E230C6DCC00F7BA28 /* LogInService.swift in Sources */,
+				31E70751230C6A5E00F7BA28 /* AppAction.swift in Sources */,
+				31E70764230C747400F7BA28 /* AppState+IsLoggedIn.swift in Sources */,
+				31E70753230C6AA000F7BA28 /* AppReducer.swift in Sources */,
+				31E70762230C707000F7BA28 /* AppUser.swift in Sources */,
 				310894B3230C5381003DC55F /* AppDelegate.swift in Sources */,
+				31E70767230C75BC00F7BA28 /* UIWindow+ResignFirstResponder.swift in Sources */,
+				31E70760230C702B00F7BA28 /* HomeView.swift in Sources */,
+				31E70769230C7AB400F7BA28 /* AppState+ShowsAlert.swift in Sources */,
+				31E70756230C6BC500F7BA28 /* ActivityIndicator.swift in Sources */,
 				310894B5230C5381003DC55F /* SceneDelegate.swift in Sources */,
-				310894B7230C5381003DC55F /* ContentView.swift in Sources */,
+				31E7075B230C6D4500F7BA28 /* LogInView.swift in Sources */,
+				310894B7230C5381003DC55F /* AppView.swift in Sources */,
+				31E7074C230C699000F7BA28 /* AppState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,10 +387,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SUIApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SUIApp/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = P38XW29864;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SUIApp/Info.plist;
+				INFOPLIST_FILE = SUIApp/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,10 +407,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SUIApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SUIApp/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = P38XW29864;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SUIApp/Info.plist;
+				INFOPLIST_FILE = SUIApp/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
