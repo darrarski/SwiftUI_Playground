@@ -3,7 +3,7 @@
 ![Swift v5.1](https://img.shields.io/badge/swift-v5.1-orange.svg)
 ![platform iOS](https://img.shields.io/badge/platform-iOS-blue.svg)
 
-SwiftUI playground project
+SwiftUI playground project. Used for exploring concepts, playing with frameworks and investigating issues.
 
 ## Setup
 
